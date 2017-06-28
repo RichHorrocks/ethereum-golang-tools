@@ -44,7 +44,7 @@ func getLDBDatabase(file string) (*LDBDatabase, error) {
 
 func main() {
     // Open the database.
-    db, err = getLDBDatabase("chaindata")
+    db, err := getLDBDatabase("chaindata")
     if err != nil {
         fmt.Println(err)
     }
